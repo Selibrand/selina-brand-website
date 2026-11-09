@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seite nicht gefunden — Seli &amp; Meadow</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script>
+/* Alte Links mit Großbuchstaben (/UGC, /Kooperation, /Petition) auf Kleinschreibung umleiten,
+   falls der Server keine .htaccess kennt (z. B. GitHub Pages). */
+(function () {
+  var p = location.pathname, l = p.toLowerCase();
+  if (l !== p) location.replace(l.replace(/\/?$/, "/") + location.search + location.hash);
+})();
+</script>
+</head>
+<body>
+<header class="kopf">
+  <div class="huelle kopf-inhalt"><a class="marke" href="/">Seli &amp; Meadow</a><div class="kopf-rechts"></div></div>
+</header>
+<main>
+  <section class="hero mitte">
+    <div class="huelle eng">
+      <h1>Hier ist nur Luft.</h1>
+      <p class="lead">Diese Seite gibt es nicht (mehr). Vielleicht findest du über die Startseite,
+        was du gesucht hast.</p>
+      <div class="knopf-reihe mitte" style="margin-top:20px">
+        <a class="knopf knopf--voll" href="/">Zur Startseite</a>
+        <a class="knopf knopf--rand" href="/fliegen-mit-hund/">Fliegen mit Hund</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="fuss mitte">
+  <div class="huelle">
+    <span class="marke">Seli &amp; Meadow</span>
+    <p class="spruch">Die Welt ist besser mit Hund.</p>
+    <nav aria-label="Rechtliches"><a href="/impressum/">Impressum</a><a href="/datenschutz/">Datenschutz</a></nav>
+  </div>
+</footer>
+</body>
+</html>

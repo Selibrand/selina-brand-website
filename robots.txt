@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://selina-brand.com/sitemap.xml
